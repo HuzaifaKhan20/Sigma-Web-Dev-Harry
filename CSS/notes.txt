@@ -1,0 +1,28 @@
+Video: 28
+
+**) CSS Cascading and Specificity
+<!-- The order of CSS specifity is 
+    Universal Selector > Element Selector > Class or Attribute Selector > ID Selector > Inline Selector
+-->
+*) Cascading = When there are conflicting styles for an HTML element from different sources, the browser follows a set of rules to determine which styles to apply. This process is known as "cascading."
+
+
+
+**) CSS Sizing Units
+*) em = it gives font size according to its parent for e.g if container has font size 18px then if we give font size:1em to the para inside the container so it have the font size = 18px
+So,
+(para inside parent font size) 1em = 18px (parent font size)
+2em = 36px
+*) rem = it gives font size according to the root element (HTML)
+(para font size) 1rem = 12px (HTML font size)
+2rem = 24px
+
+
+**) CSS Display Property
+*) Display inline = it displays elements in 1 line but it will not give margin or padding from top. it will not give custom width to the element.
+*) Display inline-block = it displays elements in 1 line but it will give margin or padding from top and also give custom width to the element
+*) Visibility hidden = it remove the element and but keep the space contained by the element
+*) Display none = it remove both the element and space contained by the element
+
+
+
