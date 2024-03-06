@@ -26,3 +26,10 @@ So,
 
 
 
+**) CSS Position Property
+*) Every element has position:static by default.
+*) So we use position:relative to give z-index.
+*) Postion:absolute set element according to the nearest positioned ancestor. If no parent element has position:relative then it will take HTML tag as reference position because there is no tag above it.
+*) **) Exception: Transform, filter, or prespective properties can also make an element appear as positioned.
+
+
