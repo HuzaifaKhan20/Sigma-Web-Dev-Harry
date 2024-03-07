@@ -1,4 +1,4 @@
-Video: 28
+Video: 36
 
 **) CSS Cascading and Specificity
 <!-- The order of CSS specifity is 
@@ -31,5 +31,11 @@ So,
 *) So we use position:relative to give z-index.
 *) Postion:absolute set element according to the nearest positioned ancestor. If no parent element has position:relative then it will take HTML tag as reference position because there is no tag above it.
 *) **) Exception: Transform, filter, or prespective properties can also make an element appear as positioned.
+
+
+**) Float aand Clear
+*) Display: flow-root used to make float element inside parent div. 
+*) float: left will take the div to the left.
+*) clear: both will not allow to float another div inside it
 
 
