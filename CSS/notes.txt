@@ -39,3 +39,22 @@ So,
 *) clear: both will not allow to float another div inside it
 
 
+**) Flexbox
+*) align-items = Used when there is just 1 line of content
+*) align-content = Used when there is multiple lines of content
+
+
+**) Grid
+*) Grid Lines = Border lines of cells
+*) Grid Cell =  Boxes inside grid
+*) Grid Track = Space between 2 grid lines
+*) Grid Area = Area between 4 grid cells
+*) We can give custom names to the columns and grids. Fro e.g:  grid-template-columns: [pehla] 120px [doosra] 100px [t];
+*) fr Unit = It is used in Grid and 1fr = 1 fraction of the total width
+*) place-content:center = It applys both align-items:center and justify-content: center.
+
+
+**) Object fit
+*) object-fit:cover;
+*) object-position: right bottom; // it is used to set the position of the image inside the container
+

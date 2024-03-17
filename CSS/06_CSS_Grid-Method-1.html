@@ -12,12 +12,14 @@
             display: grid;
             /* grid-template-columns: [pehla] 120px [doosra] 100px [t];
             grid-template-rows: 100px 100px 100px; */
-            grid-template-columns: 1fr 2fr 1fr;
+            /* grid-template-columns: repeat(4, 1fr); */
+            grid-template-columns: repeat(4, minmax(100px, 1fr));
             /* gap: 30px; */
             row-gap: 10px;
             column-gap: 40px;
             align-items: center;
             justify-items: center;
+            /* place-content: center; */
         }
         .items {
             border: 2px solid red;
@@ -25,7 +27,7 @@
             width: 55px;
         }
         .item-2 {
-            align-self: right;
+            align-self: start;
             /* grid-row: 1/2;
             grid-column: pehla/t; */
         }
@@ -39,16 +41,7 @@
     </style>
 </head>
 <body>
-<!-- 
 
-*) Grid Lines = Border lines of cells
-*) Grid Cell =  Boxes inside grid
-*) Grid Track = Space between 2 grid lines
-*) Grid Area = Area between 4 grid cells
-*) We can give custom names to the columns and grids. Fro e.g:  grid-template-columns: [pehla] 120px [doosra] 100px [t];
-*) fr Unit = It is used in Grid and 1fr = 1 fraction of the total width
-
--->
     <div class="container">
         <div class="items item-1">1</div>
         <div class="items item-2">2</div>
