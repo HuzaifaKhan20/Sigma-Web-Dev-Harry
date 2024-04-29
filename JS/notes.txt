@@ -14,3 +14,16 @@
 
 
 *) finally = it is used to run the code after try and catch even after return is true (Because if function is true then below code will not run)
+
+**) IIFE = Immediately Invoked Function Expression = A function that is immediately called. It have brackets at the end of the function
+
+*) ... = Spread Operators = It is used to copy the whole array into another array.
+
+*) Destructing = It is used to get the values to variables from array.
+
+*) variables declared within a Javascript function, become local to the function
+
+*) A variable declared outside a function, becomes global
+
+
+*) Hoisting = It only happens in var and NOT happen in let or const
