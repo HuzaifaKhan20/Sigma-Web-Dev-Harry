@@ -2,4 +2,15 @@
 
 *) Callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete an action.
 
+*) Callback function asa function ha jisko dusra function ma as an argument pass kar deya jata ha then us ka andar he usko call bhe kar leya jata ha.
+
 *) Pyramid of Dom OR Callback hell is defined as calling muliple callback functions inside callback functions
+
+*) Promise is the promise of code execution.
+
+**) settle means resolve or reject
+**) resolve means promise has settled successfully
+**) reject means promise has not settled successfully
+
+
+*) finally = it is used to run the code after try and catch even after return is true (Because if function is true then below code will not run)
